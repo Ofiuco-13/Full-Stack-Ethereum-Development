@@ -1,5 +1,7 @@
-import logo from './logo.svg';
+import { useState } from "react";
+import { ethers } from "ethers";
 import './App.css';
+import Greeter from "./artifacts/contracts/Greeter.sol/Greeter.json"
 
 function App() {
   return (
